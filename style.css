@@ -1,3 +1,24 @@
+header {
+    position: absolute; /* Fix it to the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent; /* Make it see-through */
+    padding: 20px;
+    z-index: 1000; /* Keeps it above other elements */
+}
+.logo-container {
+    position: absolute; /* Fix it to the top left */
+    top: 20px;
+    left: 20px;
+}
+
+.logo {
+    height: 50px; /* Adjust as needed */
+    width: auto; /* Keeps aspect ratio */
+}
+
+
 /* HERO SECTION */
 .hero {
     height: 100vh;
@@ -117,14 +138,4 @@
     }
 }
 
-.logo-container {
-    position: absolute; /* Fix it to the top left */
-    top: 20px;
-    left: 20px;
-}
-
-.logo {
-    height: 50px; /* Adjust as needed */
-    width: auto; /* Keeps aspect ratio */
-}
 
