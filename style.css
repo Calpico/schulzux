@@ -19,6 +19,15 @@
     width: auto; /* Keeps aspect ratio */
 }
 
+.body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: black;
+    transition: background 0.3s, color 0.3s;
+    margin: 0;
+    padding: 0;
+}
+
 
 /* HERO SECTION */
 .hero {
@@ -137,15 +146,6 @@
         width: 100%;
         max-width: 400px;
     }
-}
-
-.body {
-    font-family: Arial, sans-serif;
-    background: white;
-    color: black;
-    transition: background 0.3s, color 0.3s;
-    margin: 0;
-    padding: 0;
 }
 
 
