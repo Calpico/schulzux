@@ -19,12 +19,8 @@
     width: auto; /* Keeps aspect ratio */
 }
 
-* {
-    font-family: Arial, sans-serif;
-}
-
 body {
-    font-family: Arial, sans-serif !important;
+    font-family: Arial, Helvetica, sans-serif !important;
     background: white;
     color: black;
     transition: background 0.3s, color 0.3s;
