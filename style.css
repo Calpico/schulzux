@@ -36,6 +36,24 @@
     transition: 0.3s;
 }
 
+.cta-button {
+    background: linear-gradient(135deg, #4B0082, #9370DB); /* Dark purple to light purple */
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background: linear-gradient(135deg, #6A0DAD, #B19CD9); /* Slightly lighter gradient */
+    transform: scale(1.05); /* Slight hover effect */
+}
+
 .btn:hover {
     background: #42c8a4;
 }
