@@ -1,4 +1,5 @@
 .header {
+    font-family: Arial, sans-serif;
     position: absolute; /* Fix it to the top */
     top: 0;
     left: 0;
@@ -35,6 +36,7 @@
 
 /* HERO SECTION */
 .hero {
+    font-family: Arial, sans-serif;
     height: 100vh;
     background: url('assets/galaxy_3200.jpg') center/cover no-repeat;
     display: flex;
@@ -45,6 +47,7 @@
 }
 
 .hero-content {
+    font-family: Arial, sans-serif;
     background: rgba(0, 0, 0, 0.5); /* Dark overlay */
     padding: 2rem;
     border-radius: 10px;
