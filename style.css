@@ -24,7 +24,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif !important;
     background: white;
     color: black;
     transition: background 0.3s, color 0.3s;
