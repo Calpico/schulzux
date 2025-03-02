@@ -19,6 +19,10 @@
     width: auto; /* Keeps aspect ratio */
 }
 
+* {
+    font-family: Arial, sans-serif;
+}
+
 .body {
     font-family: Arial, sans-serif;
     background: white;
