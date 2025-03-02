@@ -144,6 +144,8 @@
     background: white;
     color: black;
     transition: background 0.3s, color 0.3s;
+    margin: 0;
+    padding: 0;
 }
 
 
