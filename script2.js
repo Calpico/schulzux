@@ -35,19 +35,19 @@ const sr = ScrollReveal({
 })
 
 sr.reveal('.home-title', {} )
-sr.reveal('.button', {delay: 200} )
-sr.reveal('.home-img', {delay: 400} )
-sr.reveal('.home-social', {delay: 400,} )
+sr.reveal('.button', {delay: 100} )
+sr.reveal('.home-img', {delay: 200} )
+sr.reveal('.home-social', {delay: 200,} )
 
 sr.reveal('.about-img', {} )
-sr.reveal('.about-subtitle', {delay: 200} )
-sr.reveal('.about-text', {delay: 400} )
+sr.reveal('.about-subtitle', {delay: 100} )
+sr.reveal('.about-text', {delay: 200} )
 
 sr.reveal('.skills-subtitle', {delay: 100} )
 sr.reveal('.skills-text', {delay: 150} )
 sr.reveal('.skills-data', {interval: 200} )
-sr.reveal('.skills-img', {delay: 400} )
+sr.reveal('.skills-img', {delay: 200} )
 
-sr.reveal('.work-img', {interval: 200} )
+sr.reveal('.work-img', {interval: 100} )
 
-sr.reveal('.contact-input', {interval: 200} )
+sr.reveal('.contact-input', {interval: 100} )
