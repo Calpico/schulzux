@@ -3,9 +3,15 @@
 :root {
     --header-height: 3rem;
     --font-semi: 600;
-
+/*
     --first-color: #4070F4;
     --second-color: #0E2431;
+*/
+
+     --first-color: #40E0D0;
+    --second-color: #FF6B6B;
+    
+    
 
     --body-font: 'Poppins', sans-serif;
     --big-font-size: 2rem;
