@@ -149,8 +149,16 @@ img {
     background-color: var(--first-color);
 }
 
-.home { height: calc(100vh - 3rem); row-gap: 1rem; }
-.home-data { align-self: center; }
+/*.home { height: calc(100vh - 3rem); row-gap: 1rem; }*/
+.home {
+    display: grid;
+    height: calc(100vh - var(--header-height)); /* Ensure it accounts for header */
+    align-items: center; /* Centers .home-data */
+}
+.home-data { 
+    align-self: center;
+    margin-top: var(--header-height);
+}
 .home-title { font-size: var(--big-font-size); margin-bottom: var(--mb5); }
 .home-title-color { color: var(--first-color); }
 .home-social { display: flex; flex-direction: column; }
