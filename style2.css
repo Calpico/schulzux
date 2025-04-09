@@ -196,6 +196,27 @@ img {
 
     .button:hover { box-shadow: 0 10px 36px rgba(0, 0, 0, .15); }
 
+
+funbutton {
+  all: unset;
+  background-color: #040a1a;
+
+  border: 6px solid #252e45;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  transform: skewX(-15deg);
+
+  &:focus {
+    outline: revert;
+  }
+}
+
 /*ABOUT*/
 
 .about-container { row-gap: 2rem; text-align: center; }
