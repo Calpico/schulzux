@@ -1,4 +1,3 @@
-import { VFX } from "https://esm.sh/@vfx-js/core";
 
 //Toggling Menu
 const showMenu = (toggleId, navId) => {
@@ -54,21 +53,3 @@ sr.reveal('.work-img', {interval: 100} )
 
 sr.reveal('.contact-input', {interval: 100} )
 
-
-
-class ButtonEffect {
-  constructor(funbutton) {
-    this.vfx = this.vfx = new VFX();
-    funbutton.addEventListener("mouseenter", (e) => {
-      this.vfx.add(funbutton, { shader: "glitch", overflow: 100 });
-    });
-
-    funbutton.addEventListener("mouseleave", (e) => {
-      this.vfx.remove(button);
-    });
-  }
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  new ButtonEffect(document.querySelector("funbutton"));
-});
